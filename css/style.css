@@ -8,6 +8,67 @@ body {
     font-size: 13px;
 }
 
+.all_forms {
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    background-color: #ebf1f8;
+    border: 0px solid #ebf1f8;
+    padding: 10px 30px;
+    color: #ebf1f8;
+    border-radius: 10px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.all_forms:focus {
+    background-color: #ebf1f8;
+    box-shadow: none;
+}
+.all_forms_label {
+    
+}
+.all_btn{
+    color: white;
+    height: 40px;
+    width: 100px;
+    background-color: #002B5B;
+    border-color: #002B5B;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 30px;
+}
+.all_btn:hover{
+    background-color: #256D85;
+    color: #eee;
+}
+.all_btn:focus{
+    background-color: #256D85;
+    color: #eee;
+    outline-color: transparent;
+}
+.box {
+    box-shadow: #32325d40 0px 30px 60px -12px, #0000004d 0px 18px 36px -18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.block-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.title-border {
+    border-bottom: #002B5B solid 4px;
+    text-transform: capitalize;
+    padding: 5px 0px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
 .pallete {
     color: #002B5B #2B4865 #256D85 #8FE3CF;
 }
@@ -28,8 +89,8 @@ body {
     margin-right: 0px;
 }
 
-.nav-item .nav-link {
-    color: white !important;
+.nav-item .nav-link a{
+    color: white;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -81,30 +142,20 @@ body {
         position: sticky;
     }
 }
-
-.side-item .nav-link {
-    font-size: 15px;
-    color: black !important;
-    margin-bottom: 20px;
-
+.side_nav li a{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
-
-.nav-item .side-link {
-    color: black !important;
+.side_nav li a:hover{
+    color: #256D85;
 }
-
-.side-item .nav-link.active {
-    color: #5917bb;
+.side_nav li.active{
+    background-color: #ebf1f8;
+    border-radius: 10px;
 }
-
-.sidebar .nav-link:hover .feather,
-.sidebar .nav-link.active .feather {
-    color: inherit;
+.side_nav li.active a:hover{
+    color: #256D85;
 }
-
-.sidebar-heading {
-    font-size: .75rem;
-    text-transform: uppercase;
-}
-
 /*** SIDE BAR ***/
