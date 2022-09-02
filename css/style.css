@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Kanit:wght@300;600;700&family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebf1f8;
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+}
+
+.pallete {
+    color: #002B5B #2B4865 #256D85 #8FE3CF;
+}
+
+/* Nav*/
+.navbar {
+    background-color: #002B5B !important;
+    margin-bottom: 30px;
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+}
+
+.fa-bars {
+    font-size: 20px;
+    color: white;
+    margin-right: 0px;
+}
+
+.nav-item .nav-link {
+    color: white !important;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-link .user-thumb-text {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.fa-search {
+    color: white;
+}
+
+/*** SIDE BAR ***/
+.sidebar {
+    background-color: #ffffff !important;
+    position: fixed;
+    top: 0 !important;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    /* Behind the navbar */
+    padding: 70px 0 0;
+    /* Height of navbar */
+    box-shadow: #32325d40 0px 30px 60px -12px, #0000004d 0px 18px 36px -18px;
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 6rem;
+    }
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sidebar-sticky {
+        position: -webkit-sticky;
+        position: sticky;
+    }
+}
+
+.side-item .nav-link {
+    font-size: 15px;
+    color: black !important;
+    margin-bottom: 20px;
+
+}
+
+.nav-item .side-link {
+    color: black !important;
+}
+
+.side-item .nav-link.active {
+    color: #5917bb;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+    color: inherit;
+}
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+/*** SIDE BAR ***/
