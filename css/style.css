@@ -29,6 +29,9 @@ body {
 .all_forms_label {
     
 }
+.form_title{
+    font-size: 13px;
+}
 .all_btn{
     color: white;
     height: 40px;
