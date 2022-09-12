@@ -9,22 +9,6 @@
 	<link rel="stylesheet" href="css/fa/css/all.css">
 	<link rel="stylesheet" href="css/la/css/line-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
-
-	<style>
-		.bd-placeholder-img {
-			font-size: 1.125rem;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-		}
-
-		@media (min-width: 768px) {
-			.bd-placeholder-img-lg {
-				font-size: 3.5rem;
-			}
-		}
-	</style>
 </head>
 
 <body>
@@ -37,16 +21,14 @@
 
 		<ul class="nav_tool ml-auto">
 			<li class="dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg"
-						width="40" height="40" class="rounded-circle" alt="">
+				<a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false">
+					<img src="imgs/usr.png" width="40" height="40" class="rounded-circle" alt="">
 				</a>
 				<div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left"
 					aria-labelledby="navbarDropdownMenuLink">
-					<a class="dropdown-item" href="#">Dashboard</a>
-					<a class="dropdown-item" href="#">Edit Profile</a>
-					<a class="dropdown-item" href="#">Log Out</a>
+					<a class="dropdown-item" href="#"><span class="la la-user-edit"></span> Edit Profile</a>
+					<a class="dropdown-item" href="#"><span class="la la-door-open"></span> Log Out</a>
 				</div>
 			</li>
 			<li>
@@ -68,7 +50,7 @@
 		<div class="row">
 
 			<!---SIDE BAR--->
-			<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+			<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" aria-label="">
 				<div class="sidebar-sticky pt-3">
 					<ul class="side_nav list-unstyled flex-column px-3 pt-2 pb-4">
 						<li class="active"><a class="text-decoration-none px-3 py-2 d-block" href="#">Link</a></li>
@@ -84,40 +66,57 @@
 			<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
 				<!---Pangani div apapa---->
 				<div class="row">
-					<div class="col-md-8">
+					<div class="col-md-12">
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#"><span class="la la-home"></span> Home</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Overview</li>
+							</ol>
+						</nav>
+					</div>
+					<div class="col-md-4">
 						<div class="box">
-							<h4 class="block-title">New Customer <span class="la la-plus-circle"></span></h4>
+							<h4 class="block-title">Customers <span class="la la-group"></span></h4>
 							<div class="title-border"></div>
-							<form action="">
-								<div class="form-row">
-									<div class="form-group col-md-6">
-										<label for="fname" class="all_forms_label"><span class="la la-"></span> First
-											Name:</label>
-										<input type="text" class="form-control all_forms" placeholder="eg: Gabriel">
-									</div>
-									<div class="form-group col-md-6">
-										<label for="lname"><span class="la la-"></span>Last Name:</label>
-										<input type="text" class="form-control all_forms" name="" id=""
-											placeholder="eg: Munthali">
-									</div>
-									<div class="form-group col-md-12">
-										<label for="email"><span class="la la-"></span>Email:</label>
-										<input type="email" class="form-control all_forms"
-											placeholder="eg: example@email.com">
-									</div>
-									<div class="form-group col-md-12">
-										<label for="org"><span class="la la-"></span>Organization:</label>
-										<input type="text" class="form-control all_forms"
-											placeholder="eg: Egenco Malawi">
-									</div>
-									<div class="form-group">
-
-									</div>
+							<div class="media">
+								<span class="la la-group mr-4 over_customer" alt="..."></span>
+								<div class="media-body">
+									<h4 class="mt-0">50000</h4>
+									<h5><a href=""><span class="la la-arrow-right"></span> See more</a></h5>
 								</div>
-								<button class="all_btn" type="submit">Save</button>
-							</form>
+							</div>
 						</div>
 					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="block-title">Quotations <span class="la la-th-list"></span></h4>
+							<div class="title-border"></div>
+							<div class="media">
+								<span class="la la-th-list mr-4 over_customer" alt="..."></span>
+								<div class="media-body">
+									<h4 class="mt-0">50000</h4>
+									<h5><a href=""><span class="la la-arrow-right"></span> See more</a></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="box">
+							<h4 class="block-title">Jobs <span class="la la-briefcase"></span></h4>
+							<div class="title-border"></div>
+							<div class="media">
+								<span class="la la-briefcase mr-4 over_customer" alt="..."></span>
+								<div class="media-body">
+									<h4 class="mt-0">50000</h4>
+									<h5><a href=""><span class="la la-arrow-right"></span> See more</a></h5>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+					
 				</div>
 			</main>
 		</div>

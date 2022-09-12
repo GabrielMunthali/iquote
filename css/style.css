@@ -137,7 +137,7 @@ ul.nav_tool{
 .nav_tool li a{
     text-decoration: none;
     color: #eee;
-    font-size: 16px;
+    font-size: 20px;
 }
 .nav_tool li a:hover{
     color: #8FE3CF;
@@ -237,3 +237,33 @@ button.navbar-toggler{
     color: #256D85;
 }
 /*** SIDE BAR ***/
+.breadcrumb{
+    margin-bottom: 30px;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #002B5B;
+    font-weight: 600;
+}
+.over_customer{
+    background-color: #002B5B;
+    color: #eee;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+.media-body h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.media-body h5 a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+}
+.media-body h5 a:hover{
+    color: #256D85;
+}

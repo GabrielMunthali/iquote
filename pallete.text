@@ -5,3 +5,40 @@
 #256D85
 
 #8FE3CF
+
+
+
+<div class="col-md-12">
+						<div class="box">
+							<h4 class="block-title">New Customer <span class="la la-plus-circle"></span></h4>
+							<div class="title-border"></div>
+							<form action="">
+								<div class="form-row">
+									<div class="form-group col-md-6">
+										<label for="fname" class="all_forms_label"><span class="la la-"></span> First
+											Name:</label>
+										<input type="text" class="form-control all_forms" placeholder="eg: Gabriel">
+									</div>
+									<div class="form-group col-md-6">
+										<label for="lname"><span class="la la-"></span>Last Name:</label>
+										<input type="text" class="form-control all_forms" name="" id=""
+											placeholder="eg: Munthali">
+									</div>
+									<div class="form-group col-md-12">
+										<label for="email"><span class="la la-"></span>Email:</label>
+										<input type="email" class="form-control all_forms"
+											placeholder="eg: example@email.com">
+									</div>
+									<div class="form-group col-md-12">
+										<label for="org"><span class="la la-"></span>Organization:</label>
+										<input type="text" class="form-control all_forms"
+											placeholder="eg: Egenco Malawi">
+									</div>
+									<div class="form-group">
+
+									</div>
+								</div>
+								<button class="all_btn" type="submit">Save</button>
+							</form>
+						</div>
+					</div>
