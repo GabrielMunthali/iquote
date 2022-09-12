@@ -13,11 +13,17 @@
 
 <body>
 	<!---MAIN NAV--->
-	<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" aria-label="">
 		<a class="navbar-brand" href="#">
 			<h2>ORG</h2>
 		</a>
 
+		<div class="collapse navbar-collapse">
+			<form class="middle_form mx-auto">
+				<input class="middle_input" type="search" placeholder="Search...">
+				<button type="submit">Search</button>
+			</form>
+		</div>
 
 		<ul class="nav_tool ml-auto">
 			<li class="dropdown">
@@ -53,10 +59,14 @@
 			<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" aria-label="">
 				<div class="sidebar-sticky pt-3">
 					<ul class="side_nav list-unstyled flex-column px-3 pt-2 pb-4">
-						<li class="active"><a class="text-decoration-none px-3 py-2 d-block" href="#"><span class="la la-home"></span> Home</a></li>
-						<li class=""><a class="text-decoration-none px-3 py-2 d-block" href="#"><span class="la la-user-plus"></span> Add Customer</a></li>
-						<li class=""><a class="text-decoration-none px-3 py-2 d-block" href="#"><span class="la la-briefcase"></span> New Job</a></li>
-						<li class=""><a class="text-decoration-none px-3 py-2 d-block" href="#"><span class="la la-th-list"></span> Quotations</a></li>
+						<li class="active"><a class="text-decoration-none px-3 py-2 d-block" href="index.html"><span
+									class="la la-home"></span> Home</a></li>
+						<li class=""><a class="text-decoration-none px-3 py-2 d-block" href="addcustomer.html"><span
+									class="la la-user-plus"></span> Add Customer</a></li>
+						<li class=""><a class="text-decoration-none px-3 py-2 d-block" href="newjob.html"><span
+									class="la la-briefcase"></span> New Job</a></li>
+						<li class=""><a class="text-decoration-none px-3 py-2 d-block" href="#"><span
+									class="la la-th-list"></span> Quotations</a></li>
 						<li class=""><a class="text-decoration-none px-3 py-2 d-block" href="#">Link</a></li>
 					</ul>
 				</div>
@@ -77,8 +87,9 @@
 					<div class="col-md-12">
 						<div class="alert alert-success alert-dismissible fade show" role="alert">
 							A simple success alert—check it out!
-							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						  </div>
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+									aria-hidden="true">&times;</span></button>
+						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="box">
@@ -122,7 +133,7 @@
 
 
 
-					
+
 				</div>
 			</main>
 		</div>
