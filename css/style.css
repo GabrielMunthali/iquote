@@ -338,3 +338,6 @@ button.navbar-toggler {
 .media-body h5 a:hover {
     color: #256D85;
 }
+.table .thead-dark th{
+    background-color: #002B5B;
+}
