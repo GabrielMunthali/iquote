@@ -125,7 +125,7 @@ input.middle_input[type="search"]::placeholder {
     color: #000;
 }
 
-button[type="submit"] {
+.middle_btn {
     text-indent: -999px;
     overflow: hidden;
     width: 40px;
@@ -138,11 +138,11 @@ button[type="submit"] {
     opacity: 0.7;
 }
 
-button[type="submit"]:hover {
+button.middle_btn:hover {
     opacity: 1;
 }
 
-button[type="submit"]:focus,
+button.middle_btn:focus,
 input[type="search"]:focus {
     box-shadow: 0 0 3px 0 #eee;
     border-color: #eee;
