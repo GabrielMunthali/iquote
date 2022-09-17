@@ -338,6 +338,56 @@ button.navbar-toggler {
 .media-body h5 a:hover {
     color: #256D85;
 }
+.table{
+    margin-bottom: 30px;
+} 
 .table .thead-dark th{
     background-color: #002B5B;
+}
+.dataTables_wrapper{
+}
+.dataTables_length{
+
+}
+.dataTables_filter{
+    
+}
+.all_btn_reset{
+    color: white;
+    height: 40px;
+    width: 200px;
+    background-color: #002B5B;
+    border-color: #002B5B;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 30px;
+}
+.all_btn_quote{
+    color: white;
+    height: 40px;
+    width: 100px;
+    background-color: #256D85;
+    border-color: #256D85;
+    border-radius: 10px;
+    border: 0;
+    margin-right: 10px;
+}
+ul.note_list{
+    padding: 0;
+    margin: 0;
+}
+.note_list{
+    list-style-type: none;
+}
+.note_body{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ebf1f8;
+    padding: 15px 0px;
+}
+.note_body h4{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.note_box{
+    background-color: #ebf1f8;
 }

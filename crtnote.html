@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>iquote | Add Customer </title>
+    <title>iquote | Create Notification </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -61,7 +61,7 @@
                     <ul class="side_nav list-unstyled flex-column px-3 pt-2 pb-4">
                         <li class=""><a class="text-decoration-none px-3 py-2 d-block" href="#"><span
                                     class="la la-home"></span> Home</a></li>
-                        <li class="active"><a class="text-decoration-none px-3 py-2 d-block" href="#"><span
+                        <li class=""><a class="text-decoration-none px-3 py-2 d-block" href="#"><span
                                     class="la la-user-plus"></span> Add Customer</a></li>
                         <li class=""><a class="text-decoration-none px-3 py-2 d-block" href="#"><span
                                     class="la la-briefcase"></span> New Job</a></li>
@@ -80,64 +80,27 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#"><span class="la la-home"></span> Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Add Customer</li>
+                                <li class="breadcrumb-item active" aria-current="page">Create Notification</li>
                             </ol>
                         </nav>
                     </div>
                     <div class="col-md-12">
                         <div class="box">
-                            <h4 class="block-title">New Customer <span class="la la-plus-circle"></span></h4>
+                            <h4 class="block-title">Create Notification <span class="la la-sticky-note"></span></h4>
                             <div class="title-border"></div>
-                            <form class="col-md-10" action="">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="fname" class="all_forms_label"><span class="la la-"></span>Name:</label>
-                                        <input type="text" class="form-control all_forms" placeholder="eg: Gabriel">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="lname" class="all_forms_label"><span class="la la-"></span>Surname:</label>
-                                        <input type="text" class="form-control all_forms" placeholder="eg: Munthali">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="email"><span class="la la-"></span>Email:</label>
-                                        <input type="email" class="form-control all_forms"
-                                            placeholder="eg: example@email.com">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="phone"><span class="la la-"></span>Phone:</label>
-                                        <input type="phone" class="form-control all_forms"
-                                            placeholder="eg: 0993996717">
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                        <label for="org" class="all_forms_label"><span class="la la-"></span>Orgnization:</label>
-                                        <input type="text" class="form-control all_forms" placeholder="eg: egenco">
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                        <label for="adress" class="all_forms_label"><span class="la la-"></span>Adress:</label>
-                                        <input type="text" class="form-control all_forms" placeholder="">
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                        <label for="adress" class="all_forms_label"><span class="la la-"></span>Adress Line 2:</label>
-                                        <input type="text" class="form-control all_forms" placeholder="">
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="city" class="all_forms_label"><span class="la la-"></span>City:</label>
-                                        <input type="text" class="form-control all_forms" placeholder="e.g: Mzuzu">
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="region" class="all_forms_label"><span class="la la-"></span>Region:</label>
-                                        <input type="text" class="form-control all_forms" placeholder="e.g: Northen Region">
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                        <label for="country" class="all_forms_label"><span class="la la-"></span>Country:</label>
-                                        <input type="text" class="form-control all_forms" placeholder="e.g: Malawi">
-                                    </div>
+                            <form action="" method="post" class="col-md-10">
+                                <div class="form-group">
+                                    <label for="title">Title:</label>
+                                    <input type="text" class="form-control all_forms" placeholder="">
                                 </div>
-                                <button class="all_btn" type="submit">Save</button>
+                                <div class="form-group">
+                                    <label for="body">Body:</label>
+                                    <textarea class="form-control all_forms" name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+                                <button class="all_btn" type="submit">Send</button>
                             </form>
                         </div>
                     </div>
-
                 </div>
             </main>
         </div>
