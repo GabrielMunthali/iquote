@@ -391,3 +391,18 @@ ul.note_list{
 .note_box{
     background-color: #ebf1f8;
 }
+.first_qt_sect{
+    border-bottom: 4px solid #ebf1f8;
+    padding: 15px 0px;
+}
+.client_addy li{
+    margin-bottom: 20px;
+}
+.comp_addy li{
+    margin-bottom: 20px;
+}
+.more_on_qt h4{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
